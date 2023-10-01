@@ -27,7 +27,9 @@ body.sticky-bottom-footer {
 }
 
 .container_wide {
-  max-width: $max-wide-content-width;
+  //max-width: $max-wide-content-width;
+  margin-left: 2.5%;
+  margin-right: max(15% - 50px, 2.5%);
 }
 
 // Profile
