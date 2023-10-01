@@ -9,6 +9,10 @@ related_publications: einstein1956investigations, einstein1950meaning
 tags: formatting toc sidebar
 toc:
   sidebar: left
+  -name: Adding a Table of Contents
+  -name: wow
+  subsections:
+    -name: haha
 ---
 This post shows how to add a table of contents as a sidebar.
 
