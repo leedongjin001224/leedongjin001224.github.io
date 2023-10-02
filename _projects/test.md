@@ -1,37 +1,31 @@
 ---
 layout: project
-title: test
-description: a project with a background image
+title: Image processing
+description: Implementing in Julia language
 img: assets/img/12.jpg
 importance: 
-category: work
+category: math to algorithm
 related_publications: einstein1956investigations, einstein1950meaning
-tags: formatting toc sidebar
+tags: math julia
+related_projects: true
+display_tags: true
 toc:
   sidebar: left
 ---
-This post shows how to add a table of contents as a sidebar.
+Image processing in Julia from math to implementing algorithms.
 
-<div class="fake-img l-body">
-  <p>.l-body</p>
-</div>
+## Images in Julia
 
-## Adding a Table of Contents
+### Loading in gray scale
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Implementing DFT
 
-###
+### Discrete Fourier Transform
 
-<div class="fake-img l-page">
-  <p>.l-page</p>
-</div>
+### Transforms in matrix form
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Into algorithm
 
-<div class="fake-img l-body-outset">
-  <p>.l-body-outset</p>
 </div>
 
     ---

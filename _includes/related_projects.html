@@ -1,0 +1,19 @@
+{% assign have_related_projects = false %}
+
+{% for post in site.related_projects | limit: site.related_project_projects.max_related %}
+  {% unless have_related_projects %}
+    {% assign have_related_projects = true %}
+    <br>
+    <hr>
+    <br>
+    <ul class="list-disc pl-8"></ul>
+
+    <!-- Adds related posts to the end of an article -->
+    <h2 class="text-3xl font-semibold mb-4 mt-12">Enjoyed this project?</h2>
+    <p class="mb-2">Futher projects you might like:</p>
+  {% endunless %}
+
+  <li class="my-2">
+    <a class="text-pink-700 underline font-semibold hover:text-pink-800" href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+  </li>
+{% endfor %}

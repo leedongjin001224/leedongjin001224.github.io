@@ -15,8 +15,33 @@
         <div class="col-md-12">
         {%- endif -%}
           <div class="card-body">
-            <h3 class="card-title text-lowercase">{{ project.title }}</h3>
+            <h4 class="card-title">{{ project.title }}</h4>
             <p class="card-text">{{ project.description }}</p>
+            {% if project.display_tags or project.display_categories %}
+            <div class="tag-category-list">
+              <ul class="p-0 m-0">
+                {% for tag in project.display_tags %}
+                  <li>
+                    <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/project/tag/' | relative_url }}">{{ tag }}</a>
+                  </li>
+                  {% unless forloop.last %}
+                    <p>&bull;</p>
+                  {% endunless %}
+                {% endfor %}
+                {% if project.display_categories.size > 0 and project.display_tags.size > 0 %}
+                  <p>&bull;</p>
+                {% endif %}
+                {% for category in project.display_categories %}
+                  <li>
+                    <i class="fas fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/project/category/' | relative_url }}">{{ category }}</a>
+                  </li>
+                  {% unless forloop.last %}
+                    <p>&bull;</p>
+                  {% endunless %}
+                {% endfor %}
+              </ul>
+            </div>
+            {% endif %}
             <div class="row ml-1 mr-1 p-0">
               {%- if project.github -%}
               <div class="github-icon">
