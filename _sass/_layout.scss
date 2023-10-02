@@ -28,8 +28,9 @@ body.sticky-bottom-footer {
 
 .widecontainer {
   //max-width: $max-wide-content-width;
-  margin-left: 2.5%;
-  margin-right: max(15% - 50px, 2.5%);
+  max-width: 1024px;
+  margin-left: max(50% - 500px, 10px);
+  margin-right: 15px;
 }
 
 // Profile
