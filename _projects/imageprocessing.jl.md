@@ -1,18 +1,31 @@
 ---
-layout: page
-title: project 2
-description: a project with a background image and giscus comments
-img: assets/img/3.jpg
-importance: 2
-category: fun
-giscus_comments: true
+layout: project
+title: Image processing
+description: Implementing in Julia language
+img: assets/img/12.jpg
+importance: 
+tags: math julia
+category: math-to-algorithm
+related_publications: einstein1956investigations, einstein1950meaning
+related_projects: true
+toc:
+  sidebar: left
+github: https://github.com/leedongjin001224/leedongjin001224.github.io
 ---
+Image processing in Julia from math to implementing algorithms.
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## Images in Julia
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+### Loading in gray scale
+
+## Implementing DFT
+
+### Discrete Fourier Transform
+
+### Transforms in matrix form
+
+### Into algorithm
+
 
     ---
     layout: page
@@ -20,6 +33,13 @@ To give your project a background in the portfolio page, just add the img tag to
     description: a project with a background image
     img: /assets/img/12.jpg
     ---
+
+## Customizing Your Table of Contents
+{:data-toc-text="Customizing"}
+
+<div class="fake-img l-page-outset">
+  <p>.l-page-outset</p>
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -44,6 +64,22 @@ To give your project a background in the portfolio page, just add the img tag to
     This image can also have a caption. It's like magic.
 </div>
 
+<div class="fake-img l-screen">
+  <p>.l-screen</p>
+</div>
+<div class="fake-img l-screen-inset">
+  <p>.l-screen-inset</p>
+</div>
+
+***
+
+<div class="fake-img l-gutter">
+  <p>.l-gutter</p>
+</div>
+
+
+### Example of Sub-Heading 2
+
 You can also put regular text between your rows of images.
 Say you wanted to write a little bit about your project before you posted the rest of the images.
 You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
@@ -61,6 +97,7 @@ You describe how you toiled, sweated, *bled* for your project, and then... you r
     You can also have artistically styled 2/3 + 1/3 images, like these.
 </div>
 
+### Example of another Sub-Heading 2
 
 The code is simple.
 Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).

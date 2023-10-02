@@ -1,5 +1,5 @@
 ---
-layout: default_wide
+layout: widedefault
 ---
 <!-- _layouts/post.html -->
 {%- assign year = page.date | date: "%Y" -%}
@@ -21,7 +21,7 @@ layout: default_wide
     <p class="post-tags">
       {%- if tags != "" %}
         {% for tag in page.tags -%}
-        <a href="{{ tag | slugify | prepend: '/projects/tag/' | prepend: site.baseurl}}">
+        <a href="{{ tag | slugify | prepend: '/tag/' | prepend: site.baseurl}}">
           <i class="fas fa-hashtag fa-sm"></i> {{ tag }}</a> &nbsp;
           {% endfor -%}
       {% endif %}
@@ -29,7 +29,7 @@ layout: default_wide
       {%- if categories != "" %}
       &nbsp; &middot; &nbsp;
         {% for category in page.categories -%}
-        <a href="{{ category | slugify | prepend: '/projects/category/' | prepend: site.baseurl}}">
+        <a href="{{ category | slugify | prepend: '/category/' | prepend: site.baseurl}}">
           <i class="fas fa-tag fa-sm"></i> {{ category }}</a> &nbsp;
           {% endfor -%}
       {% endif %}
@@ -57,7 +57,7 @@ layout: default_wide
   </div>
   {%- endif %}
 
-  {%- if site.related_projects.enabled -%}
+  {%- if site.related_project_projects.enabled -%}
     {%- if page.related_projects == null or page.related_projects -%}
       {% include related_projects.html %}
     {%- endif %}
