@@ -32,20 +32,14 @@ pagination:
         <li>
           <i class="fas fa-hashtag fa-sm"></i> <a href="{{ tag | slugify | prepend: '/tag/' | relative_url }}">{{ tag }}</a>
         </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
       {% endfor %}
       {% if site.display_categories.size > 0 and site.display_tags.size > 0 %}
-        <p>&bull;</p>
+        <br>
       {% endif %}
       {% for category in site.display_categories %}
         <li>
           <i class="fas fa-tag fa-sm"></i> <a href="{{ category | slugify | prepend: '/category/' | relative_url }}">{{ category }}</a>
         </li>
-        {% unless forloop.last %}
-          <p>&bull;</p>
-        {% endunless %}
       {% endfor %}
     </ul>
   </div>

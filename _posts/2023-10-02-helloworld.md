@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Redirecting to my github
+title: Redirect to my github
 date: 2023-10-02 12:00:00-0000
 description: Hello world!
 tags: math physics julia python
