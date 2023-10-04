@@ -8,4 +8,5 @@ categories: thoughts math-to-algorithm visualization fun
 giscus_comments: false
 related_posts: false
 redirect: https://github.com/leedongjin001224
+thumbnail: assets/img/myplace.jpg
 ---

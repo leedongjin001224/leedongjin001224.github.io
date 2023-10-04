@@ -40,8 +40,12 @@ Image processing in Julia from math to building algorithms.
 
 <hr>
 
-## Futher analysis
+## Filter
 
 ### Impulse
+
+<hr>
+
+## Futher analysis
 
 ### Parseval's theorem
