@@ -1,0 +1,37 @@
+---
+layout: project
+title: Astrophotographic
+description: astropy, FITS Liberator
+img: assets/projects/astrophoto/NGC3324.png
+importance: 
+tags: python
+category: fun
+related_projects: true
+toc:
+  sidebar: left
+github: https://github.com/leedongjin001224/leedongjin001224.github.io
+---
+
+<hr>
+
+## 
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/projects/astrophoto/NGC3324.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/projects/astrophoto/MAST.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<div class="row mt-3">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/projects/astrophoto/FITS_Liberator.png" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+
+<hr>
