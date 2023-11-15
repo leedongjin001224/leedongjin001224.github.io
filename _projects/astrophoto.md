@@ -1,6 +1,6 @@
 ---
 layout: distill
-title: Astrophotography
+title: Astrophoto
 description: astropy, FITS Liberator
 img: assets/projects/astrophoto/NGC3324.png
 importance: 
@@ -30,13 +30,13 @@ toc:
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/astrophoto/deep_emission.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/projects/astrophoto/deep_confirm.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/astrophoto/deep_confirm.png" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/projects/astrophoto/deep_emission.png" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 
