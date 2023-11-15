@@ -7,8 +7,6 @@ importance:
 tags: python
 category: fun
 related_projects: true
-toc:
-  sidebar: left
 github: https://github.com/leedongjin001224/leedongjin001224.github.io
 ---
 
@@ -16,10 +14,8 @@ github: https://github.com/leedongjin001224/leedongjin001224.github.io
 
 ## Astrophoto
 
-<div class="row mt-3">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/projects/astrophoto/NGC3324.png" class="img-fluid rounded z-depth-1" %}
-    </div>
+<div class="fake-img l-screen">
+  {% include figure.html path="assets/projects/astrophoto/NGC3324.png" class="img-fluid rounded z-depth-1" %}
 </div>
 
 <div class="row mt-3">
