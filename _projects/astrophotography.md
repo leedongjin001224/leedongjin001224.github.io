@@ -1,5 +1,5 @@
 ---
-layout: project
+layout: distill
 title: Astrophotography
 description: astropy, FITS Liberator
 img: assets/projects/astrophoto/NGC3324.png
