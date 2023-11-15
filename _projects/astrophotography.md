@@ -7,6 +7,7 @@ importance:
 tags: python
 category: fun
 related_projects: true
+featured: true
 github: https://github.com/leedongjin001224/leedongjin001224.github.io
 toc:
   - name: Astrophoto
