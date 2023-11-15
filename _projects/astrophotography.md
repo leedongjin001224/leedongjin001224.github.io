@@ -8,6 +8,8 @@ tags: python
 category: fun
 related_projects: true
 github: https://github.com/leedongjin001224/leedongjin001224.github.io
+toc:
+  - name: Astrophoto
 ---
 
 <hr>
