@@ -8,11 +8,11 @@
     - name: Languages
       value: English, Korean
 
-#- title: Education
-#  type: time_table
-#  contents:
-#    - title: PhD
-#      institution: University of Zurich, Zurich, Switzerland
+- title: Education
+  type: time_table
+  contents:
+    - title: B.S. Course
+      institution: GIST, Korea, Republic of
 #      year: 1905
 #      description:
 #        - Description 1.

@@ -5,8 +5,8 @@ permalink: /
 subtitle: #<a href='#'>Affiliations</a>. Address. Contacts. Moto. Etc.
 
 profile:
-  align: right
-  image: prof_pic.jpg
+  align: left
+  image: dongjin.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
     <p>B.S. course in physics</p>
