@@ -9,9 +9,9 @@ profile:
   image: dongjin.jpg
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p>B.S. course in physics</p>
+    <p>B.S course in physics</p>
     <p>Gwangju Institute of Science and Technology</p>
-    <p>Gwangju, Korea, republic of</p>
+    <p>Gwangju, republic of Korea</p>
 
 news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
@@ -22,4 +22,4 @@ social: true  # includes social icons at the bottom of the page
 
 #Link to your social media connections, too. This theme is set up to use [Font Awesome icons] and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
 ---
-Undergraduate student interested in math, physics, and computer science.
+Undergraduate student interested in maths, physics, and computer sciences.

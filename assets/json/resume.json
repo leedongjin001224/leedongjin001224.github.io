@@ -1,12 +1,12 @@
 {
   "basics": {
     "name": "Dongjin Lee",
-    "label": "Undergrauate student",
-    "image": "",
+    "label": "B.S course in physics",
+    "image": "/assets/img/dongjin.jpg",
     "email": "leedongjin@gm.gist.ac.kr",
     "phone": "+82 10-5636-3625",
     "url": "https://leedongjin001224.github.io",
-    "summary": "Majoring in physics, EECS and minoring in maths.",
+    "summary": "Undergraduate student interested in maths, physics, and computer sciences",
     "location": {
       "address": "",
       "postalCode": "61005",
@@ -36,24 +36,35 @@
   ],
   "education": [
     {
-      "institution": "Gwangju Institute of Sciences and Technology",
+      "institution": "Gwangju Institute of Science and Technology",
       "location": "Gwangju, Korea",
       "url": "https://www.gist.ac.kr/",
-      "area": "Physics",
-      "studyType": "B.S",
+      "area": "Intensive Major: Physics, 2nd Major: EECS, Minor: Maths",
+      "studyType": "B.S course (5th registered semester in 2024 fall)",
       "startDate": "2020-03-02",
       "endDate": "202?-??-??",
-      "score": "4.04/4.5 (curruntly)",
-      "courses": [""]
+      "score": "GPA: 4.04/4.5 (curruntly)",
+      "courses": [
+        "Thermodynamics and Statistical Physics",
+        "Scientific Programming",
+        "Machine Learning and Deep Learning",
+        "Random Process",
+        "Real Analysis and Applications",
+        "Geometry I"
+      ],
+      "all_courses_wrote": false
     }
   ],
   "awards": [
+  ],
+  "scholarships": [
     {
       "title": "GIST Presidential Fellowship",
-      "date": "2020-03 ~ 202?-??",
-      "awarder": "Gwangju Institute of Sciences and Technology",
+      "startDate": "2020-03",
+      "endDate": "202?-??",
+      "awarder": "Gwangju Institute of Science and Technology",
       "url": "https://www.gist.ac.kr/kr/html/sub05/05020603.html",
-      "summary": "Scholarship for new enrolled excellent students valid by their 8th registered semester."
+      "summary": "Fellowship to excellent new enrolled students, valid by their 8th registered semester"
     }
   ],
   "publications": [
@@ -72,8 +83,17 @@
   ],
   "interests": [
     {
-      "name": "Physics",
-      "icon": "fa-solid fa-tag",
+      "name": "Statistical Physics",
+      "icon": "fa fa-cubes",
+      "keywords": [
+        "Network Theory",
+        "Boltzmann Model",
+        "Brownian Motion"
+      ]
+    },
+    {
+      "name": "Quantum Physics",
+      "icon": "fa fa-tag",
       "keywords": [
         "Quantum Mechanics",
         "Quantum Computing",
@@ -82,21 +102,13 @@
       ]
     },
     {
-      "name": "Mathematics",
-      "icon": "fa-solid fa-tag",
+      "name": "Machine Learning",
+      "icon": "fa fa-bar-chart",
       "keywords": [
-        "Differential Geometry",
-        "Optimization",
         "Statistical Learning",
-        "Topological Data Analysis"
-      ]
-    },
-    {
-      "name": "Computer Sciences",
-      "icon": "fa-solid fa-tag",
-      "keywords": [
-        "Scientific Programming",
-        "Algorithms"
+        "Topological Data Analysis",
+        "Optimization",
+        "Information Theory"
       ]
     }
   ]

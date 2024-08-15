@@ -2,7 +2,7 @@
 layout: widepage
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of my cool projects.
 nav: true
 nav_order: 2
 display_categories: [math-to-algorithm, visualization, fun]
@@ -17,7 +17,7 @@ toc:
   <!-- Display categorized projects -->
   {% for category in page.display_categories %}
   <a id="{{ category }}" href=".#{{ category }}">
-    <h1 class="category">{{ category }}</h1>
+    <h2 class="category">{{ category }}</h2>
   </a>
   {% assign categorized_projects = site.projects | where: "category", category %}
   {% assign sorted_projects = categorized_projects | sort: "importance" %}
