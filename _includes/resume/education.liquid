@@ -12,7 +12,7 @@
           {% else %}
             {% assign date = null %}
           {% endif %}
-          {% if content.all_courses_wrote %}
+          {% if content.all_courses_written %}
             {% assign dummy = 'Taken courses' %}
           {% else %}
             {% assign dummy = 'Selected taken courses' %}
@@ -40,6 +40,13 @@
                 <tr>
                   <td>
                     <b style="font-size: 0.95rem">{{ content.score }}</b>
+                  </td>
+                <tr>
+              {% endif %}
+              {% if content.credits %}
+                <tr>
+                  <td>
+                    <h6 style="font-size: 0.95rem">Credits: {{ content.credits }}</h6>
                   </td>
                 <tr>
               {% endif %}

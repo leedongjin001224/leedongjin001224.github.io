@@ -22,7 +22,59 @@
       }
     ]
   },
-  "volunteer": [
+  "work": [
+
+  ],
+  "education": [
+    {
+      "institution": "Gwangju Institute of Science and Technology",
+      "location": "Gwangju, Korea",
+      "url": "https://www.gist.ac.kr/",
+      "area": "Intensive Major: Physics, 2nd Major: EECS, Minor: Maths",
+      "studyType": "B.S course (5th registered semester in 2024 fall)",
+      "startDate": "2020-03-02",
+      "endDate": "",
+      "score": "GPA: 4.04/4.5 (curruntly)",
+      "credits": "89(+24)",
+      "courses": [
+        "Thermodynamics and Statistical Physics",
+        "Scientific Programming",
+        "Machine Learning and Deep Learning",
+        "Random Process",
+        "Real Analysis and Applications",
+        "Geometry I"
+      ],
+      "all_courses_written": false
+    }
+  ],
+  "awards": [
+  ],
+  "scholarships": [
+    {
+      "title": "GIST Presidential Fellowship",
+      "startDate": "2020-03",
+      "endDate": "",
+      "awarder": "Gwangju Institute of Science and Technology",
+      "url": "https://www.gist.ac.kr/kr/html/sub05/05020603.html",
+      "summary": "Fellowship to excellent new enrolled students, valid by their 8th registered semester"
+    }
+  ],
+  "publications": [
+  ],
+  "extracurriculars": [
+    {
+      "title": "Summer School on Quantum Information Science",
+      "startDate": "2024-08-19",
+      "endDate": "2024-08-23",
+      "institution": "Quantum Information Research Support Center<br>& School of Quantum at Korea University",
+      "url": "https://qschool.info/",
+      "summary": "Introductory lectures on quantum computing and quantum teleportation"
+    }
+  ],
+  "projects": [
+
+  ],
+  "volunteering": [
     {
       "organization": "Vientiane Capital Skills Development Center",
       "location": "Vientiane, Laos",
@@ -34,40 +86,26 @@
       "highlights": []
     }
   ],
-  "education": [
+  "certificates": [
+
+  ],
+  "skills": [
     {
-      "institution": "Gwangju Institute of Science and Technology",
-      "location": "Gwangju, Korea",
-      "url": "https://www.gist.ac.kr/",
-      "area": "Intensive Major: Physics, 2nd Major: EECS, Minor: Maths",
-      "studyType": "B.S course (5th registered semester in 2024 fall)",
-      "startDate": "2020-03-02",
-      "endDate": "202?-??-??",
-      "score": "GPA: 4.04/4.5 (curruntly)",
-      "courses": [
-        "Thermodynamics and Statistical Physics",
-        "Scientific Programming",
-        "Machine Learning and Deep Learning",
-        "Random Process",
-        "Real Analysis and Applications",
-        "Geometry I"
-      ],
-      "all_courses_wrote": false
-    }
-  ],
-  "awards": [
-  ],
-  "scholarships": [
+      "name": "Scientific Computation",
+      "level": "",
+      "icon": "fa-solid fa-hashtag",
+      "keywords": [
+        
+      ]
+    },
     {
-      "title": "GIST Presidential Fellowship",
-      "startDate": "2020-03",
-      "endDate": "202?-??",
-      "awarder": "Gwangju Institute of Science and Technology",
-      "url": "https://www.gist.ac.kr/kr/html/sub05/05020603.html",
-      "summary": "Fellowship to excellent new enrolled students, valid by their 8th registered semester"
+      "name": "Machine Learning",
+      "level": "",
+      "icon": "fa fa-bar-chart",
+      "keywords": [
+        
+      ]
     }
-  ],
-  "publications": [
   ],
   "languages": [
     {
@@ -111,5 +149,8 @@
         "Information Theory"
       ]
     }
+  ],
+  "references": [
+
   ]
 }
