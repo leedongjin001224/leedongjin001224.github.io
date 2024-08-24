@@ -4,6 +4,21 @@
 
 // Typography
 
+@keyframes show{
+  0% {
+    transform: translateY(10px);
+    opacity: 0
+  }
+  to {
+    transform: translateY(0);
+    opacity: 100
+  }
+}
+
+div {
+  animation: show 1s;
+}
+
 p,
 h1,
 h2,

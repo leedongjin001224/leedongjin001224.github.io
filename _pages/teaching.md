@@ -11,7 +11,11 @@ nav_order: 4
 <div class="projects">
   <div class="row justify-content-center">
     {% for course in sorted_courses %}
-      {% include courses.liquid %}
+      {% if course.short %}
+        {% include courses_short.liquid%}
+      {% else %}
+        {% include courses.liquid %}
+      {% endif %}
     {% endfor %}
   </div>
 </div>
