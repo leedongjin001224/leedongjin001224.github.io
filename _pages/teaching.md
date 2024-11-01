@@ -2,11 +2,20 @@
 layout: page
 permalink: /teaching/
 title: teaching
-description: Materials for courses you taught. Replace this text with your description.
+description: List of my teaching experiences.
 nav: true
-nav_order: 6
+nav_order: 4
 ---
 
-For now, this page is assumed to be a static description of your courses. You can convert it to a collection similar to `_projects/` so that you can have a dedicated page for each course.
-
-Organize your courses by years, topics, or universities, however you like!
+{% assign sorted_courses = site.courses | sort: "importance" %}
+<div class="projects">
+  <div class="row justify-content-center">
+    {% for course in sorted_courses %}
+      {% if course.short %}
+        {% include courses_short.liquid%}
+      {% else %}
+        {% include courses.liquid %}
+      {% endif %}
+    {% endfor %}
+  </div>
+</div>

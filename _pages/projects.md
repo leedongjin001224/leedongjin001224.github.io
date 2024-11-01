@@ -1,12 +1,14 @@
 ---
-layout: page
+layout: widepage
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of my cool projects.
 nav: true
-nav_order: 3
-display_categories: [work, fun]
+nav_order: 2
+display_categories: [math-to-algorithm, visualization, fun]
 horizontal: false
+toc:
+  sidebar: left
 ---
 
 <!-- pages/projects.md -->
