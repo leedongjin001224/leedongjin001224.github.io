@@ -4,8 +4,16 @@
   {% assign link = course.url | relative_url %}
 {% endif %}
 
-<div style="width: 95%;">
-<h3 style="margin-bottom: 0.05em; font-size: medium; font-weight: bolder"><a href="{{ link }}">{{ course.code }}: {{ course.title }}</a></h3>
-<p style="margin-bottom: 0.05em">{{ course.position }} at {{ course.location }}</p>
-<p>{% for time in course.times %}{{ time }}{% unless forloop.last %} / {% endunless %}{% endfor %}</p>
+<div style="width: 95%; display: flex; flex-direction: column; margin-bottom: 1em;">
+  <div style="display: flex; justify-content: space-between; align-items: baseline;">
+    <h3 style="margin: 0; font-size: medium; font-weight: bolder;">
+      {{ course.code }}: {{ course.title }}
+    </h3>
+    <p style="margin: 0;">
+      {% for time in course.times %}{{ time }}{% unless forloop.last %} / {% endunless %}{% endfor %}
+    </p>
+  </div>
+  <div style="margin-top: 0em;">
+    <p style="margin: 0;">{{ course.position }} at {{ course.location }}</p>
+  </div>
 </div>
