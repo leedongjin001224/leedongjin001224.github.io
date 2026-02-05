@@ -7,7 +7,7 @@ nav: true
 nav_order: 4
 ---
 
-{% assign sorted_courses = site.courses | sort: "importance" %}
+{% assign sorted_courses = site.courses | sort: "num" | reverse %}
 <div class="projects">
   <div class="row justify-content-center">
     {% for course in sorted_courses %}
